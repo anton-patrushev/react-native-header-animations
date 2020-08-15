@@ -1,6 +1,9 @@
+import 'react-native-gesture-handler';
 import React, { memo } from 'react';
-import { View } from 'react-native';
+
+// routers
+import { Router } from 'routers';
 
 export const App = memo(() => {
-  return <View />;
+  return <Router />;
 });
