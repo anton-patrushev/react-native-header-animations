@@ -2,7 +2,7 @@ import React, { memo, FC } from 'react';
 import { View, Text, Image } from 'react-native';
 
 // assets
-import { twitter, like, comment, share } from 'assets/images';
+import { twitter, like, comment, share, content } from 'assets/images';
 
 // styles
 import styles from './styles';
@@ -28,6 +28,11 @@ export const Tweet: FC<ITweetProps> = memo((props) => {
         </View>
         <View style={styles.messageContainer}>
           <Text style={styles.message}>{message}</Text>
+          <Image
+            style={styles.imagePreview}
+            source={content}
+            resizeMode="cover"
+          />
         </View>
         <View style={styles.actions}>
           <Image style={styles.action} source={comment} />

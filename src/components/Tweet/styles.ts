@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
 
 // utils
-import { GUTTER, COLORS } from 'utils/constants';
+import { GUTTER, COLORS, SCREEN_WIDTH } from 'utils/constants';
 
 const SIZE = 60;
 
@@ -64,5 +64,11 @@ export default StyleSheet.create({
     marginRight: GUTTER * 3,
     width: 20,
     height: 20,
+  },
+  imagePreview: {
+    marginTop: GUTTER,
+    borderRadius: 12,
+    height: 150,
+    width: SCREEN_WIDTH - 150,
   },
 });
