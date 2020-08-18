@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 import { View } from 'react-native';
 
-export const Profile = memo(() => {
+export const ProfileScreen = memo(() => {
   return <View />;
 });

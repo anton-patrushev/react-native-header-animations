@@ -1,5 +1,6 @@
-import { PROFILE_STACK } from 'utils/constants';
+import { MAIN_STACK } from 'utils/constants';
 
-export type ProfileStackParamsList = {
-  [PROFILE_STACK.PROFILE_SCREEN]: undefined;
+export type MainStackParamsList = {
+  [MAIN_STACK.PROFILE_SCREEN]: undefined;
+  [MAIN_STACK.MAIN_SCREEN]: undefined;
 };
