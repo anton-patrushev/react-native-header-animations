@@ -85,7 +85,7 @@ export const MainScreen: FC<IMainScreenProps> = memo((props) => {
         <Header
           {...navigationProps}
           opacityValue={headerOpacity}
-          title={'FEED'}
+          title={'Feed'}
         />
       ),
     });
