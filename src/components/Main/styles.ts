@@ -3,10 +3,12 @@ import { StyleSheet } from 'react-native';
 // utils
 import { COLORS, GUTTER } from 'utils/constants';
 
+export const HEADER_HEIGHT = 80;
+
 export default StyleSheet.create({
   screen: {
     backgroundColor: COLORS.WHITE,
-    paddingTop: 100,
+    paddingTop: HEADER_HEIGHT,
   },
   separator: {
     height: 1,
@@ -16,6 +18,7 @@ export default StyleSheet.create({
   header: {
     justifyContent: 'center',
     alignItems: 'flex-start',
+    height: HEADER_HEIGHT,
   },
   headerTitle: {
     fontSize: 27,
