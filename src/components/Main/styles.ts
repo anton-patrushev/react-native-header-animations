@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 // utils
 import { COLORS, GUTTER } from 'utils/constants';
 
-export const HEADER_HEIGHT = 80;
+export const HEADER_HEIGHT = 60;
 
 export default StyleSheet.create({
   screen: {
